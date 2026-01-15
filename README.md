@@ -1,4 +1,4 @@
-#📊 ChartSense AI – LLM-Powered Visualization Assistant
+📊ChartSense AI – LLM-Powered Visualization Assistant
 
 ChartSense AI is an AI-powered analytics learning assistant designed to help Power BI beginners choose the right chart for their data and understand why that visualization works.
 

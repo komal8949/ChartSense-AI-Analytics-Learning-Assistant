@@ -1,123 +1,87 @@
-📊ChartSense AI – LLM-Powered Visualization Assistant
+📊 ChartSense AI
+Your Smart Guide to Choosing the Right Data Visualization
 
-ChartSense AI is an AI-powered analytics learning assistant designed to help Power BI beginners choose the right chart for their data and understand why that visualization works.
+❓ Confused about which chart to use in Power BI?
+🤔 Not sure why a bar chart works better than a pie chart?
+✅ ChartSense AI is here to guide you.
 
-Many beginners struggle with questions like:
+🚀 What is ChartSense AI?
 
-Which chart should I use?
+ChartSense AI is an AI-powered analytics assistant designed for Power BI beginners.
+It helps users understand which chart to use, why to use it, and when not to use it — using simple explanations and real-world examples.
 
-Why is a bar chart better than a pie chart here?
+🧠 How ChartSense AI Helps You Learn
 
-How do I explain insights correctly in Power BI?
+🎯 Upload your dataset
+💬 Ask analytics questions in plain English
+📊 Get the best chart recommendation
+📘 Learn why that chart works
+⚠️ Understand common visualization mistakes
+💡 Apply Power BI best practices
 
-ChartSense AI solves this by combining analytics logic + LLM-style explanations to guide users step by step.
+✨ Key Features
 
-🚀 Key Features
+✅ Upload CSV / Excel datasets
+✅ Ask natural language analytics questions
+✅ Smart chart recommendations
+✅ Beginner-friendly explanations
+✅ “When NOT to use this chart” guidance
+✅ Power BI–specific visualization tips
 
-📂 Dataset Upload (CSV / Excel)
+🖱️ Example Interaction
 
-💬 Natural Language Analytics Questions
-
-📈 Smart Chart Recommendations
-
-📘 Beginner-Friendly Explanations
-
-⚠️ When NOT to use a chart
-
-🎯 Power BI–specific visualization tips
-
-🧠 How It Works
-
-User uploads a dataset (CSV / Excel)
-
-User asks an analytics question
-Example:
+You ask:
 
 “Compare sales across regions”
 
-ChartSense AI:
+ChartSense AI responds:
 
-Analyzes the intent
-
-Recommends the best chart
-
-Explains why
-
-Explains why other charts are not ideal
-
-Gives Power BI best practices
-
-🏗️ Project Architecture
-ChartSense_AI/
-│
-├── app.py                     # Streamlit application
-├── requirements.txt           # Dependencies
-├── README.md                  # Documentation
-│
-└── utils/
-    ├── chart_recommender.py   # Chart recommendation logic
-    └── llm_explainer.py       # Explanation engine
-
-🛠️ Tech Stack
-
-Frontend / UI: Streamlit
-
-Backend: Python
-
-Data Handling: Pandas
-
-AI Logic: Rule-based + LLM-style explanations
-
-Deployment Ready: Streamlit Cloud / Local
-
-▶️ Run Locally
-# Install dependencies
-pip install -r requirements.txt
-
-# Run the app
-streamlit run app.py
-
-
-The app will start at:
-
-http://localhost:8501
-
-📌 Example Use Case
-
-User Question:
-
-Compare revenue across regions
-
-ChartSense AI Output:
-
-✅ Recommended Chart: Bar Chart
+📊 Recommended Chart: Bar Chart
 
 📘 Why: Best for comparing categorical values
 
 ⚠️ Avoid: Line chart (no time-based trend)
 
-🎯 Power BI Tip: Sort regions by revenue for clarity
+🎯 Power BI Tip: Sort regions by sales for clarity
 
-🎯 Target Users
+🏗️ Project Structure
+ChartSense_AI/
+│
+├── app.py
+├── requirements.txt
+├── README.md
+│
+└── utils/
+    ├── chart_recommender.py
+    └── llm_explainer.py
 
-Power BI beginners
+🛠️ Tech Stack
 
-Data analytics students
+Python
 
-Business analysts
+Streamlit
 
-Freshers learning data visualization
+Pandas
 
-Anyone confused about chart selection
+Analytics Logic + LLM-style Reasoning
 
-🌱 Future Enhancements
+▶️ Run the Project Locally
+pip install -r requirements.txt
+streamlit run app.py
 
-🔗 LLM integration (OpenAI / LLaMA / Mistral)
 
+🌐 App runs on: http://localhost:8501
+
+🎓 Who Is This For?
+
+👨‍🎓 Data analytics beginners
+📊 Power BI learners
+🧑‍💼 Business & data analysts
+🚀 Freshers building analytics projects
+
+🌱 Future Scope
+
+🔮 LLM integration (OpenAI / LLaMA)
 📚 RAG-based analytics knowledge base
-
-🧠 Automatic column-type detection
-
-📊 Power BI field mapping suggestions
-
-📈 Visual preview generation
+📊 Auto column & chart detection
+🎯 Power BI visual field suggestions

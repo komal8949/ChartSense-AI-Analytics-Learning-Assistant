@@ -1,16 +1,16 @@
-📊 ChartSense AI
+## 📊 ChartSense AI
 Your Smart Guide to Choosing the Right Data Visualization
 
 ❓ Confused about which chart to use in Power BI?
 🤔 Not sure why a bar chart works better than a pie chart?
 ✅ ChartSense AI is here to guide you.
 
-🚀 What is ChartSense AI?
+## 🚀 What is ChartSense AI?
 
 ChartSense AI is an AI-powered analytics assistant designed for Power BI beginners.
 It helps users understand which chart to use, why to use it, and when not to use it — using simple explanations and real-world examples.
 
-🧠 How ChartSense AI Helps You Learn
+## 🧠 How ChartSense AI Helps You Learn
 
 🎯 Upload your dataset
 💬 Ask analytics questions in plain English
@@ -19,7 +19,7 @@ It helps users understand which chart to use, why to use it, and when not to use
 ⚠️ Understand common visualization mistakes
 💡 Apply Power BI best practices
 
-✨ Key Features
+## ✨ Key Features
 
 ✅ Upload CSV / Excel datasets
 ✅ Ask natural language analytics questions
@@ -28,7 +28,7 @@ It helps users understand which chart to use, why to use it, and when not to use
 ✅ “When NOT to use this chart” guidance
 ✅ Power BI–specific visualization tips
 
-🖱️ Example Interaction
+## 🖱️ Example Interaction
 
 You ask:
 
@@ -44,7 +44,7 @@ ChartSense AI responds:
 
 🎯 Power BI Tip: Sort regions by sales for clarity
 
-🏗️ Project Structure
+## 🏗️ Project Structure
 ChartSense_AI/
 │
 ├── app.py
@@ -55,7 +55,7 @@ ChartSense_AI/
     ├── chart_recommender.py
     └── llm_explainer.py
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 Python
 
@@ -65,21 +65,21 @@ Pandas
 
 Analytics Logic + LLM-style Reasoning
 
-▶️ Run the Project Locally
+## ▶️ Run the Project Locally
 pip install -r requirements.txt
 streamlit run app.py
 
 
 🌐 App runs on: http://localhost:8501
 
-🎓 Who Is This For?
+## 🎓 Who Is This For?
 
 👨‍🎓 Data analytics beginners
 📊 Power BI learners
 🧑‍💼 Business & data analysts
 🚀 Freshers building analytics projects
 
-🌱 Future Scope
+## 🌱 Future Scope
 
 🔮 LLM integration (OpenAI / LLaMA)
 📚 RAG-based analytics knowledge base
